@@ -5,8 +5,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 import pymc3 as pm
 
-# plt.style.use('grayscale')
-#plt.style.use('seaborn-whitegrid')
+plt.style.use('grayscale')
+plt.style.use('seaborn-whitegrid')
 np.random.seed(0)
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
